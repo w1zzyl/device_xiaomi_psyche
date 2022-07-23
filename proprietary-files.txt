@@ -1,14 +1,6 @@
 # Unpinned blobs from psyche_global-user 12 RKQ1.211001.001 V13.0.2.0.SLDMIXM release-keys
 
 # ACDB
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ADSP modules
@@ -51,7 +43,6 @@ vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib/libfcsam.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
@@ -128,10 +119,7 @@ vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
-vendor/lib64/libalAILDC.so
 vendor/lib64/libalCFR.so
-vendor/lib64/libalLDC.so
-vendor/lib64/libalhLDC.so
 vendor/lib64/libarcdualcamsat.so
 vendor/lib64/libarcmulticamsat.so
 vendor/lib64/libc++_shared.so
@@ -152,7 +140,6 @@ vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdng_sdk2vendor.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
-vendor/lib64/libfcsam.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libhdrdynamic.so
@@ -306,18 +293,9 @@ vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
 # Camera configs
-vendor/camera/model/model_front.dlc
 vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
-vendor/etc/camera/CFR_para_UW_V01.bin
 vendor/etc/camera/CFR_para_UW_V07.bin
-vendor/etc/camera/CFR_para_W_V01.bin
-vendor/etc/camera/CFR_para_W_V07.bin
 vendor/etc/camera/GpuKernelRepo.pb
-vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
-vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin
-vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
-vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin
-vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/ai_enhance.dlc
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/bokehParams.json
@@ -352,9 +330,6 @@ vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 
-# Display-calibration
-vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
-
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 
@@ -375,15 +350,11 @@ vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors configs
 vendor/etc/sensors/config/ak991x_dri_0.json
-vendor/etc/sensors/config/bu27030_0_back.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/sm8250_ak991x_0.json
-vendor/etc/sensors/config/sm8250_bu27030_0_back.json
 vendor/etc/sensors/config/sm8250_lsm6dso_0.json
 vendor/etc/sensors/config/sm8250_power_0.json
 vendor/etc/sensors/config/sm8250_sx932x_0.json
-vendor/etc/sensors/config/sm8250_sx932x_1.json
-vendor/etc/sensors/config/sm8250_tcs3701.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/config/sns_aod.json
@@ -400,7 +371,6 @@ vendor/etc/sensors/config/sns_geomag_rv.json
 vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_nonui.json
-vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
@@ -411,8 +381,6 @@ vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sx932x_0.json
-vendor/etc/sensors/config/sx932x_1.json
-vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
@@ -442,19 +410,12 @@ vendor/lib64/sensors.touch.so
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
-vendor/etc/thermal-india-class0.conf
-vendor/etc/thermal-india-mgame.conf
-vendor/etc/thermal-india-normal.conf
-vendor/etc/thermal-india-tgame.conf
-vendor/etc/thermal-india-video.conf
-vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
-vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
